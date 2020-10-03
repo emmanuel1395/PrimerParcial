@@ -5,7 +5,7 @@ const peliculas = [
         duracion: "99M",
         director: "Sam Hargrave",
         anio: "2020",
-        imagen: "img/001.png"
+        imagen: "001.png"
     },
     {
         numero: "2",
@@ -13,7 +13,7 @@ const peliculas = [
         duracion: "89M",
         director: "Susanne Bier",
         anio: "2018",
-        imagen: "img/002.png"
+        imagen: "002.png"
     },
     {
         numero: "3",
@@ -21,7 +21,7 @@ const peliculas = [
         duracion: "85M",
         director: "Peter Berg",
         anio: "2020",
-        imagen: "img/003.png"
+        imagen: "003.png"
     },
     {
         numero: "4",
@@ -29,7 +29,7 @@ const peliculas = [
         duracion: "83M",
         director: "Michael Bay",
         anio: "2019",
-        imagen: "img/004.png"
+        imagen: "004.png"
     },
     {
         numero: "5",
@@ -37,7 +37,7 @@ const peliculas = [
         duracion: "73M",
         director: "Kyle Newacheck",
         anio: "2019",
-        imagen: "img/005.png"
+        imagen: "005.png"
     },
     {
         numero: "6",
@@ -45,7 +45,7 @@ const peliculas = [
         duracion: "64M",
         director: "Martin Scorsese",
         anio: "2019",
-        imagen: "img/006.png"
+        imagen: "006.png"
     },
     {
         numero: "7",
@@ -53,7 +53,7 @@ const peliculas = [
         duracion: "63M",
         director: "J. C. Chandor",
         anio: "2019",
-        imagen: "img/007.png"
+        imagen: "007.png"
     },
     {
         numero: "8",
@@ -61,7 +61,7 @@ const peliculas = [
         duracion: "59M",
         director: "Happy Madison",
         anio: "2020",
-        imagen: "img/008.png"
+        imagen: "008.png"
     },
     {
         numero: "9",
@@ -69,7 +69,7 @@ const peliculas = [
         duracion: "56M",
         director: "Galder Gaztelu-Urrutia",
         anio: "2019",
-        imagen: "img/009.png"
+        imagen: "009.png"
     },
     {
         numero: "10",
@@ -77,7 +77,7 @@ const peliculas = [
         duracion: "48M",
         director: "Chris Nelson",
         anio: "2019",
-        imagen: "img/010.png"
+        imagen: "010.png"
     }
 ]
 
@@ -90,7 +90,7 @@ function listarPeliculas() {
 
         const content = `
         <div class="card bg-dark" style="width: ">
-            <img class="card-img-top" src="${elemento.imagen}" alt="Card image cap">
+            <img class="card-img-top" src="img/${elemento.imagen}" alt="${elemento.titulo}">
             <div class="card-body">
                 <h5 class="card-title text-danger" >${elemento.numero} ${elemento.titulo} (${elemento.duracion})</h5>
                 <p class="card-text text-white">Director: ${elemento.director} / Año: ${elemento.anio}</p>
